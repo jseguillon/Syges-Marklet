@@ -3,6 +3,8 @@
 
 $("<h1 id='enCours'>Reformattage .... <br/> en cours....</h1>").prependTo($('body'));
 
+
+setTimeout(function () {
 //Marque certaines class comme info à conserver : 
 $('.CSS-LibInfosZRP').each(function () {
     $(this).attr('xdata-niji', 'true');
@@ -75,3 +77,4 @@ $('.CSS-LibInfosZRP div').each(function () {
 });
 
 $("#enCours").remove();
+}, 10);
