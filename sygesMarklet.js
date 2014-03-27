@@ -1,6 +1,8 @@
 
 //$('input[type=TEXT]').each(function(){$(this).css('outline-style', 'groove')});
 
+$("<h1 id='enCours'>Reformattage .... <br/> en cours....</h1>").prependTo($('body'));
+
 //Marque certaines class comme info à conserver : 
 $('.CSS-LibInfosZRP').each(function () {
     $(this).attr('xdata-niji', 'true');
@@ -72,3 +74,4 @@ $('.CSS-LibInfosZRP div').each(function () {
     $(this).css('color', 'black');
 });
 
+$("#enCours").remove();
